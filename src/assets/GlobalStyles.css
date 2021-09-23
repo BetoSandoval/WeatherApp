@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Raleway:wght@500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Raleway:wght@500;600&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  html{
-	font-size: 62.5%;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
 
-  body{
-    font-family: 'Montserrat', sans-serif;
-    background: #100e1d;
-  }
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #100e1d;
+}
 
-  /* font-family: 'Raleway', sans-serif; */
+.app{
+  display: flex;
+}
+
+/* font-family: 'Raleway', sans-serif; */
