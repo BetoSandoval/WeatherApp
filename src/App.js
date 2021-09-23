@@ -1,8 +1,11 @@
+import LeftElement from "./assets/elements/LeftElement";
+import RightElement from "./assets/elements/RightElement";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <LeftElement></LeftElement>
+      <RightElement></RightElement>
     </div>
   );
 }
