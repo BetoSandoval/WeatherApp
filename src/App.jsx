@@ -1,16 +1,20 @@
 import AppContainer from "./assets/elements/AppContainer";
 import LeftElement from "./assets/elements/LeftElement";
 import RightElement from "./assets/elements/RightElement";
-import SearchButton from "./components/SearchButton";
+import DataWeatherContainer from "./components/DataWeatherContainer";
+
 
 
 function App() {
   return (
     <AppContainer>
       <LeftElement>
-        <SearchButton/>
+        <DataWeatherContainer/>
       </LeftElement>
-      <RightElement></RightElement>
+
+      <RightElement>
+
+      </RightElement>
     </AppContainer>
   );
 }
