@@ -1,21 +1,20 @@
-import AppContainer from "./assets/elements/AppContainer";
-import LeftElement from "./assets/elements/LeftElement";
-import RightElement from "./assets/elements/RightElement";
-import DataWeatherContainer from "./components/DataWeatherContainer";
 
 
 
 function App() {
   return (
-    <AppContainer>
-      <LeftElement>
-        <DataWeatherContainer/>
-      </LeftElement>
+    <div className="container">
+      <div className="row right-container">
+        <div className="col">
 
-      <RightElement>
-
-      </RightElement>
-    </AppContainer>
+        </div>
+      </div>
+      <div className="row left-container">
+        <div className="col">
+          
+        </div>
+      </div>
+    </div>
   );
 }
 
