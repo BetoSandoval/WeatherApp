@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import "./assets/GlobalStyles.css";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import "./assets/GlobalStyles.css";
 
 ReactDOM.render(
   <App />,
