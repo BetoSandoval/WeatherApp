@@ -1,17 +1,20 @@
-import AppContainer from "./assets/elements/AppContainer";
-import LeftElement from "./assets/elements/LeftElement";
-import RightElement from "./assets/elements/RightElement";
-import SearchButton from "./components/SearchButton";
+import './assets/styles/rightContainer.scss';
+import './assets/styles/leftContainer.scss';
+import { LeftContainer } from './Components/LeftContainer';
 
 
 function App() {
   return (
-    <AppContainer>
-      <LeftElement>
-        <SearchButton/>
-      </LeftElement>
-      <RightElement></RightElement>
-    </AppContainer>
+    <div className="container-fluid">
+      <div className="row d-flex">
+        <div className="col-sm-12 col-md-12 col-lg-3 left-container">
+          <LeftContainer/>
+        </div>
+        <div className="col-sm-12 col-md-12 col-lg-9 right-container">
+          <h2>Im developer</h2>
+        </div>
+      </div>
+    </div>
   );
 }
 

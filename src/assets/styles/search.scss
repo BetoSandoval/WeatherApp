@@ -1,0 +1,34 @@
+.input-bar {
+  position: absolute;
+  width: 268px;
+  height: 48px;
+  left: 1.5rem;
+  top: 82px;
+  background: #1e213a;
+  border: 1px solid #e7e7eb;
+  box-sizing: border-box;
+  text-align: center;
+  color: #616475;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+
+.button-search {
+  position: absolute;
+  width: 8rem;
+  height: 4.8rem;
+  left: 29.1rem;
+  top: 8.2rem;
+
+  background: #3c47e9;
+}
+
+.lens {
+  font-size: 3rem;
+  position: absolute;
+  left: 1.5%;
+  top: 12.5%;
+  bottom: 16.43%;
+  color: #616475;
+  z-index: 1;
+}
